@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="my_button_corner_radius" />
+    <attr name="my_button_background_tint" />
+
+    <attr name="color_text_header" />
+    <attr name="color_text_description" />
+</resources>

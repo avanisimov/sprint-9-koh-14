@@ -1,7 +1,11 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.Sprint9koh14" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="my_button_corner_radius">2dp</item>
+        <item name="my_button_background_tint">@color/white</item>
+        <item name="color_text_header">#0ff</item>
+        <item name="color_text_description">#0f0</item>
     </style>
 </resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Sprint9koh14.Button" parent="">
+        <item name="cornerRadius">?attr/my_button_corner_radius</item>
+        <item name="backgroundTint">?attr/my_button_background_tint</item>
+    </style>
+
+    <style name="Widget.Sprint9koh14.Header" parent="">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Sprint9koh14.Header.Error">
+        <item name="android:textColor">?attr/color_text_header</item>
+    </style>
+
+    <style name="Widget.Sprint9koh14.Description" parent="">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Widget.Sprint9koh14.Description.Error" parent="">
+        <item name="android:textColor">?attr/color_text_description</item>
+    </style>
+
+</resources>
