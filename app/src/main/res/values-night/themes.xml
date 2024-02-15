@@ -7,5 +7,6 @@
         <item name="my_button_background_tint">@color/white</item>
         <item name="color_text_header">#0ff</item>
         <item name="color_text_description">#0f0</item>
+        <item name="navigation_icon_color">#00f</item>
     </style>
 </resources>

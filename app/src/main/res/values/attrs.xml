@@ -5,4 +5,6 @@
 
     <attr name="color_text_header" />
     <attr name="color_text_description" />
+
+    <attr name="navigation_icon_color" />
 </resources>

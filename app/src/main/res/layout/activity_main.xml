@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/ic_launcher_background" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:inputType="phone" />
 
 
     <LinearLayout
@@ -46,22 +60,22 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/theme1"
-            android:theme="@style/Theme.Sprint9koh14"
             style="@style/Widget.Sprint9koh14.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="theme1" />
+            android:text="theme1"
+            android:theme="@style/Theme.Sprint9koh14" />
 
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/theme2"
-            android:theme="@style/Theme.Sprint9koh14.Alternative"
             style="@style/Widget.Sprint9koh14.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="theme2" />
+            android:text="theme2"
+            android:theme="@style/Theme.Sprint9koh14.Alternative" />
 
     </LinearLayout>
 
